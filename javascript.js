@@ -14,3 +14,7 @@ a.addEventListener("click", function(){
  }
 
 });
+
+
+//animation js
+AOS.init();

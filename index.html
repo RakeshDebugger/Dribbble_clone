@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dribbble clone</title>
+    <!--Animation link add-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Text hover effect-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="pngwing.com.png">
     <link
@@ -13,14 +20,14 @@
 <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <div class="nav_bar">
+    <div class="nav_bar" data-aos="fade-up">
         <div class="group1">
         <a href="#">Find designers</a>
         <a href="#">Inspitration</a>
         <a href="#">jobs</a>
         <a href="#">Go pro</a>
         </div>
-        <div class="dribb">
+        <div class="dribb ">
           <i class="ri-menu-3-line" id="menu"></i>
         <a href="#"><img src="Dribbble-Logo-removebg-preview.png" alt=""></a>
       </div>
@@ -33,27 +40,27 @@
         <button class="log2">Sign up</button>
       </div>
     </div>
-    <div class="responsive_ness">
+    <div class="responsive_ness" >
       <a href="#">Find designers</a>
       <a href="#">Inspitration</a>
       <a href="#">jobs</a>
       <a href="#">Go pro</a>
       </div>
     <!--hero section-->
-    <div class="hero">
-      <p class="word">Over 3 million ready-to-work creatives!</p>
-      <p class="text">
+    <div class="hero " >
+      <p class="word animate__animated animate__shakeY">Over 3 million ready-to-work creatives!</p>
+      <p class="text animate__animated animate__shakeY">
         The world’s destination<br> for design
       </p>
-      <p class="text1">Get inspired by the work of millions of top-rated designers & agencies around the world</p>
+      <p class="text1 animate__animated animate__shakeY">Get inspired by the work of millions of top-rated designers & agencies around the world</p>
       
-      <div class="trending">
+      <div class="trending animate__animated animate__heartBeat">
         <a href="#">Get Sarted</a>
       </div>
     </div>
     <!--card section start-->
    
-    <div  class="cardwrapper1">
+    <div  class="cardwrapper1" data-aos="zoom-in-up">
     <div class="card">
      <div class="imgwapper1">
       <img src="https://cdn.dribbble.com/uploads/47178/original/mercedes-bazan.png?1689174566&format=webp&resize=320x399&vertical=center" alt="Camera pic">
@@ -92,10 +99,10 @@
   </div>
     <!--card section end-->
     <!--box section start-->
-  <p class="inspiration1">
+  <p class="inspiration1"  data-aos="fade-right">
     Explore inspiring designs
   </p>
-    <div class="cardwrapper">
+    <div class="cardwrapper" data-aos="zoom-in-up">
       <div class="card">
         <div class="imgwrapper">
           <img
@@ -466,18 +473,18 @@
 
     <!--box secrion end-->
 
-    <div class="inspiration">
-      <p class="browser">Browse more inspiration</p>
+    <div class="inspiration " data-aos="fade-down">
+      <p class="browser ">Browse more inspiration</p>
       </div>
 
       <!--start-->
       <div class="bigger"></div>
-       <div class="bigfinder">
+       <div class="bigfinder ">
         <div class="big1"></div>
         <div class="big2">
-          <p class="designer">Find your next<br/> designer today</p>
+          <p class="designer animate__animated animate__shakeY">Find your next<br/> designer today</p>
         </div>
-        <div class="big3">
+        <div class="big3 animate__animated animate__shakeY">
           <p class="designer1">The world's leading brands use dribbble to hire creative talent<br/>
             Browse millions of top-rated portfolios to find your perfect<br/> craetive match.
           </p>
@@ -494,7 +501,7 @@
       <!--end-->
       <!--footer card start-->
       <div class="space"></div>
-      <div class="cardwrapper2">
+      <div class="cardwrapper2"  data-aos="zoom-in-down">
         <div class="card">
          <div class="imgwapper2">
           <img src="https://cdn.dribbble.com/userupload/16125429/file/original-069e9983d9313d0b98d97a6f261bf8ee.png?format=webp&resize=273x205&vertical=center" alt="Camera pic">
@@ -533,7 +540,7 @@
       </div>
       <!--footer card end-->
       <!--footer related work-->
-      <div class="navbartt">
+      <div class="navbartt" data-aos="zoom-out">
         <div class="gru1u">
            <a href="#"> <img src="Dribbble-Logo-removebg-preview.png" alt="img"></a>
         </div>
@@ -557,7 +564,7 @@
     </div>
       <!--footer related work end-->
 
-      <div class="footer">
+      <div class="footer"   data-aos="zoom-in-right">
        <div class="firstfoo">
         <a href="#">@2024 Dribbble</a>
         <a href="#">Terms</a>
@@ -573,6 +580,7 @@
         <a href="#">Resource</a>
        </div>
       </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="javascript.js"></script>
 </body>
 </html>
